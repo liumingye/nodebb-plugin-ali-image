@@ -1,0 +1,9 @@
+{
+    "id": "nodebb-plugin-ali-image",
+    "description": "A nodebb plugin that upload images to alibaba.com",
+    "url": "https://github.com/liumingye/nodebb-plugin-ali-image",
+    "library": "./index.js",
+    "hooks": [
+        { "hook": "filter:uploadImage", "method": "upload", "priority": 6 }
+    ]
+}

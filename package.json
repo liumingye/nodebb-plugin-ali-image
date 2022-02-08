@@ -1,0 +1,23 @@
+{
+  "name": "nodebb-plugin-ali-image",
+  "version": "1.1.0",
+  "description": "A nodebb plugin that upload images to alibaba.com",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liumingye/nodebb-plugin-ali-image"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "ali-image"
+  ],
+  "author": "liumingye <liumingye2015@gmail.com>",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "request": "^2.0.0"
+  },
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  }
+}
